@@ -1,4 +1,4 @@
-# vue-temp
+# vue-template 
 
 ## 安装项目依赖包
 ```
@@ -10,9 +10,13 @@ npm install
 npm run serve
 ```
 
-### 生产打包
+### 测试环境打包
 ```
-npm run build
+npm run build:stage
+```
+### 生产环境打包
+```
+npm run build:prod
 ```
 
 ### eslints 格式修复

@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" :src="img">
-    <svg-icon icon-class="user" />
+    {{ content }}
 
   </div>
 </template>
@@ -15,7 +14,8 @@ export default {
   },
   data(){
     return {
-      img: require('@/assets/logo.png')
+      // img: require('@/assets/logo.png')
+      content: '首页'
     }
   },
   created(){
@@ -25,8 +25,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 .home{
-  background: #000;
   height: 100vh;
   width: 100vh;
+  background: $activeText;
 }
 </style>
